@@ -5,9 +5,6 @@ require File.expand_path(File.dirname(__FILE__) + '/blueprints')
 require 'database_cleaner'
 
 class ActiveSupport::TestCase
-  # Reset the Machinist cache before each test.
-  setup { Machinist.reset_before_test }
-
   # Setup all fixtures in test/fixtures/*.(yml|csv) for all tests in alphabetical order.
   #
   # Note: You'll currently still have to declare fixtures explicitly in integration tests
