@@ -33,6 +33,7 @@ end
 
 # Use unicorn as the web server
 gem 'unicorn'
+gem 'guard'
 
 # Deploy with Capistrano
 # gem 'capistrano'
