@@ -33,7 +33,6 @@ end
 
 # Use unicorn as the web server
 gem 'unicorn'
-gem 'mysql', '~>2.8'
 
 # Deploy with Capistrano
 # gem 'capistrano'
